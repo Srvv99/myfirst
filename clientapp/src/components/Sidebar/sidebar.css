@@ -1,0 +1,123 @@
+.sidebar {
+  background-color: rgb(66, 66, 98);
+  flex: 6;
+  height: calc(100vh - 50px);
+  position: sticky;
+  top: 50px;
+  overflow-y: scroll;
+  
+  
+  
+
+}
+
+.hidebar {
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(78, 78, 83);
+  height: calc(100vh - 50px);
+  width: 70px;
+  position: sticky;
+  top: 50px;
+}
+
+.hideIcons{
+  background-color: azure;
+  width: 70%;
+  text-align: center;
+  margin:10px;
+  border-radius:10px;
+}
+
+.lists {
+  
+  width:100%;
+  
+}
+
+.title {
+  color:white;
+  background-color: rgb(13, 13, 75);
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.listitems {
+  padding: 5px;
+  list-style: none;
+  font-size: 0.95rem;
+}
+
+
+
+
+.listitem{
+  display:flex;
+  color:white;
+  border-radius: 10px;
+  
+}
+
+.listitem.active, .listitem:hover{
+  background-color: rgb(33, 23, 72);
+  
+} 
+
+.menuitem{
+  color:white !important;
+  vertical-align: middle;  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+  .title,
+  .listitem{
+    font-size: 10px;
+  
+  }
+}
+
+@media (max-width: 800px) {
+
+  .menuitem{
+    font-size: 10px !important;
+
+  
+  }
+}
+
+
+.sidebar::-webkit-scrollbar {
+  
+  width: 15px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(11, 160, 235);
+  border-radius: 100vw;
+  height: 100px;
+}
+
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgb(131, 128, 128);
+  border-radius: 100vw;
+  
+}

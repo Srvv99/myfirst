@@ -1,0 +1,47 @@
+
+.nav{
+  height:50px;
+  background-color: rgb(8, 53, 53);
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:5px;
+  position:sticky;
+  top:0;
+  z-index: 1;
+}
+
+
+.leftnav{
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.menuicon{
+  background-color: rgb(21, 116, 81);
+  font-size: 35px !important;
+  border-radius: 2px;
+  margin-right: 10px;
+  
+}
+
+.menuicon:hover{
+  background-color: rgb(93, 95, 93);
+ }
+
+
+
+
+ 
+ .helpcentreicon{
+
+  color:white;
+  border-radius: 4px;
+  font-size: 40px !important;
+
+}
+
+
+
